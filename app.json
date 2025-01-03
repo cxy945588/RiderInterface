@@ -4,11 +4,11 @@
     "slug": "RiderInterface",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/AppIcon~ios-marketing.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/New_splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,9 +17,16 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/New_adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDWVaLbGkMsUyajWA70baig9PJn5XSX7vI"
+        }
+      },    
+      
+      "package": "com.cxy5588.RiderInterface"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +38,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3226749c-73ba-42cd-8060-bb7762fa5604"
+      }
     }
   }
 }
